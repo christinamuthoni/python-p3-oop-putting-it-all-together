@@ -28,12 +28,6 @@ class Shoe:
             print(f"setting brand to {brand}")
             set._brand = brand
 
-    def  repaired (self):
-         return self._repaired  
-    
-    def condition(self):
-        return self._condition  
-
     def cobble(self):
         #print(f"The {self._brand} shoe has been repaired.")
         print('Your shoe is as good as new!')
